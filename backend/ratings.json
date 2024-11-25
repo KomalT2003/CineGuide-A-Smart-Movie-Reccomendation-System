@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Oppenheimer",
+        "rating": 4.5,
+        "description": "Amaxing movie",
+        "genre" : "Thriller",
+        "pictureUrl" : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqimh4wcZD5o2x7jWJjIP5nKScMSwoyR-IJMYNueaVEExrNygvwwpUpiDCph6Ic3X-hlah"
+    },
+    {
+        "name": "The Shawshank Redemption",
+        "rating": 5,
+        "description": "Amaxing movie",
+        "genre" : "Drama",
+        "pictureUrl" : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSf1DK32xKMQzqSl8wnY1BLVu_gdwsRYzVSNM6A03r6c-fEwrif8raKzkFRuerw1KHdDICvOw"
+    },
+    {
+        "name": "The Godfather",
+        "rating": 4.5,
+        "description": "Amaxing movie",
+        "genre" : "Crime",
+        "pictureUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrNSyIJyJWBElcdE8y5IieaHXvYls3TxYQ8orjwqSTNSA3M3JwK_SIzlkHK-Tsqnkaedn3ZilwezzcgOuDO-wWx-eq0iN27OJZE_K8nA"
+    },
+    {
+        "name": "The Dark Knight",
+        "rating": 4.5,
+        "description": "Amaxing movie",
+        "genre" : "Action",
+        "pictureUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrNSyIJyJWBElcdE8y5IieaHXvYls3TxYQ8orjwqSTNSA3M3JwK_SIzlkHK-Tsqnkaedn3ZilwezzcgOuDO-wWx-eq0iN27OJZE_K8nA"
+    }
+]

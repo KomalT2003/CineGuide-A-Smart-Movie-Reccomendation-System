@@ -1,0 +1,335 @@
+[
+    {
+        "userid": 1,
+        "username": "Komal",
+        "password": "123",
+        "region": "North America",
+        "liked_movies": [
+            {
+                "title": "Father of the Bride Part II",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//rj4LBtwQ0uGrpBnCELr716Qo3mw.jpg",
+                "cast": [
+                    "SteveMartin",
+                    "DianeKeaton",
+                    "MartinShort"
+                ],
+                "crew": [
+                    "CharlesShyer"
+                ],
+                "description": "Just when George Banks has recovered from his daughter's wedding, he receives the news that she's pregnant ... and that George's wife, Nina, is expecting too. He was planning on selling their home, but that's a plan that -- like George -- will have to change with the arrival of both a grandchild and a kid of his own. baby midlifecrisis confidence aging daughter motherdaughterrelationship pregnancy contraception gynecologist SteveMartin DianeKeaton MartinShort CharlesShyer Comedy"
+            },
+            {
+                "title": "Four Rooms",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//75aHn1NOYXh4M7L5shoeQ6NGykP.jpg",
+                "cast": [
+                    "TimRoth",
+                    "AntonioBanderas",
+                    "JenniferBeals"
+                ],
+                "crew": [
+                    "AllisonAnders"
+                ],
+                "description": "It's Ted the Bellhop's first night on the job...and the hotel's very unusual guests are about to place him in some outrageous predicaments. It seems that this evening's room service is serving up one unbelievable happening after another. hotel newyear'seve witch bet hotelroom sperm losangeles hoodlum womandirector episodefilm TimRoth AntonioBanderas JenniferBeals AllisonAnders Crime Comedy"
+            },
+            {
+                "title": "Jumanji",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//vgpXmVaVyUL7GGiDeiK1mKEKzcX.jpg",
+                "cast": [
+                    "RobinWilliams",
+                    "JonathanHyde",
+                    "KirstenDunst"
+                ],
+                "crew": [
+                    "JoeJohnston"
+                ],
+                "description": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures. boardgame disappearance basedonchildren'sbook newhome recluse giantinsect RobinWilliams JonathanHyde KirstenDunst JoeJohnston Adventure Fantasy Family"
+            },
+            {
+                "title": "Tom and Huck",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//vIG8hWOa7DyLMRiurzKwVAnIYoU.jpg",
+                "cast": [
+                    "JonathanTaylorThomas",
+                    "BradRenfro",
+                    "RachaelLeighCook"
+                ],
+                "crew": [
+                    "PeterHewitt"
+                ],
+                "description": "A mischievous young boy, Tom Sawyer, witnesses a murder by the deadly Injun Joe. Tom becomes friends with Huckleberry Finn, a boy with no future and no family. Tom has to choose between honoring a friendship or honoring an oath because the town alcoholic is accused of the murder. Tom and Huck go through several adventures trying to retrieve evidence. JonathanTaylorThomas BradRenfro RachaelLeighCook PeterHewitt Action Adventure Drama Family"
+            },
+            {
+                "title": "Othello",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//kyevuYzW36wKadiE8lftLac5VwQ.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "The evil Iago pretends to be friend of Othello in order to manipulate him to serve his own end in the film version of this Shakespeare classic. shakespeare jealousy friends moor LaurenceFishburne Ir\u00e8neJacob KennethBranagh OliverParker Drama"
+            },
+            {
+                "title": "Casino",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://image.tmdb.org/t/p/w500//4TS5O1IP42bY2BvgMxL156EENy.jpg",
+                "cast": [
+                    "RobertDeNiro",
+                    "SharonStone",
+                    "JoePesci"
+                ],
+                "crew": [
+                    "MartinScorsese"
+                ],
+                "description": "The life of the gambling paradise \u2013 Las Vegas \u2013 and its dark mafia underbelly. poker drugabuse 1970s overdose illegalprostitution RobertDeNiro SharonStone JoePesci MartinScorsese Drama Crime"
+            },
+            {
+                "title": "Beauty and the Beast",
+                "year": "1991",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BYTY3NDg2YzktYWFjZC00MTExLTlmZDctMGY3MWYzZTlkYTNiXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "PaigeO'Hara",
+                    "RobbyBenson",
+                    "RichardWhite"
+                ],
+                "crew": [
+                    "GaryTrousdale"
+                ],
+                "description": "follow the adventur of belle, a bright young woman who find herself in the castl of a princ who' been turn into a mysteri beast. with the help of the castle' enchant staff, bell soon learn the most import lesson of all -- that true beauti come from within. princ book castl rose music princess anim basedontvseri beast bell paigeo'hara robbybenson richardwhit garytrousdal romanc famili anim fantasi music"
+            },
+            {
+                "title": "A Bronx Tale",
+                "year": "1993",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BZTZiZWFjY2UtMDYzOS00N2JhLTk5YmYtMGQ1Yjk5ZWYzZjI4XkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "RobertDeNiro",
+                    "ChazzPalminteri",
+                    "LilloBrancato"
+                ],
+                "crew": [
+                    "RobertDeNiro"
+                ],
+                "description": "set in the bronx dure the tumultu 1960s, an adolesc boy is torn between hi honest, working-class father and a violent yet charismat crime boss. complic matter is the youngster' grow attract - forbidden in hi neighborhood - for a beauti black girl. gambl fathersonrelationship blackpeopl italo-american italian loyalti gangsterboss funer molotowcocktail ganglead nostalgia gameofdic busdriv bestfriend extremeviol witnesstomurd hoodlum xenophobia fatherfigur robertdeniro chazzpalminteri lillobrancato robertdeniro drama crime"
+            },
+            {
+                "title": "Shanghai Triad",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BMjExNzU2NDctYTQ4My00MmFkLTljN2UtN2MzYWQ1NTFiNDEyXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "GongLi",
+                    "LiBao-Tian",
+                    "WangXiaoxiao"
+                ],
+                "crew": [
+                    "ZhangYimou"
+                ],
+                "description": "a provinci boy relat to a shanghai crime famili is recruit by hi uncl into cosmopolitan shanghai in the 1930 to be a servant to a ganglord' mistress. servant cabaret shanghai diva uncl mistress umbrella gongli libao-tian wangxiaoxiao zhangyim drama crime"
+            },
+            {
+                "title": "Eye for an Eye",
+                "year": "1996",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BYzg3MDc5ZWEtMTc3Ny00YWEzLTlmMTgtMjk3NGJjMmNjOTYyXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "SallyField",
+                    "KieferSutherland",
+                    "EdHarris"
+                ],
+                "crew": [
+                    "JohnSchlesinger"
+                ],
+                "description": "it' fire and brimston time as griev mother karen mccann take justic into her own hand when a kangaroo court in lo angel fail to convict robert doob, the monster who rape and murder her 17-year-old daughter. rape gun self-defens grievingpar sallyfield kiefersutherland edharri johnschlesing drama thriller"
+            },
+            {
+                "title": "Beauty and the Beast",
+                "year": "1991",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BYTY3NDg2YzktYWFjZC00MTExLTlmZDctMGY3MWYzZTlkYTNiXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "PaigeO'Hara",
+                    "RobbyBenson",
+                    "RichardWhite"
+                ],
+                "crew": [
+                    "GaryTrousdale"
+                ],
+                "description": "follow the adventur of belle, a bright young woman who find herself in the castl of a princ who' been turn into a mysteri beast. with the help of the castle' enchant staff, bell soon learn the most import lesson of all -- that true beauti come from within. princ book castl rose music princess anim basedontvseri beast bell paigeo'hara robbybenson richardwhit garytrousdal romanc famili anim fantasi music"
+            }
+        ],
+        "friends": [
+            "Komms",
+            "Vanshika"
+        ]
+    },
+    {
+        "userid": 2,
+        "username": "Komms",
+        "password": "123",
+        "region": "Asia",
+        "liked_movies": [],
+        "friends": [
+            "Komal"
+        ]
+    },
+    {
+        "userid": 3,
+        "username": "Vanshika",
+        "password": "123",
+        "region": "North America",
+        "liked_movies": [],
+        "friends": []
+    },
+    {
+        "userid": 4,
+        "username": "Samarth",
+        "password": "123",
+        "region": "Asia",
+        "liked_movies": [
+            {
+                "title": "The Quick and the Dead",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BZGRlZTJmNTEtMzE3Yi00YTAwLWIyMjgtODU4NTExNjFmOTQwXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "SharonStone",
+                    "GeneHackman",
+                    "RussellCrowe"
+                ],
+                "crew": [
+                    "SamRaimi"
+                ],
+                "description": "a mysteri woman come to compet in a quick-draw elimin tournament, in a town taken over by a notori gunman. gunsling reveng prairi shootout pistol sharonston genehackman russellcrow samraimi action western"
+            }
+        ],
+        "friends": []
+    },
+    {
+        "userid": 5,
+        "username": "Sanika",
+        "password": "123",
+        "region": "North America",
+        "liked_movies": [],
+        "friends": []
+    },
+    {
+        "username": "Vipul",
+        "password": "12345",
+        "region": "Asia",
+        "liked_movies": [
+            {
+                "title": "Othello",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BMzJkMzdmMjMtOGVmNC00NTI4LWJjNTMtNGE4ZGMzYjU1ZDk5XkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
+            },
+            {
+                "title": "Mr. Nice Guy",
+                "year": "1997",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BYmU1MWQ0NGEtZTRmOC00NWJiLWFkZjYtZWM5NmM1ODQ5Y2U3XkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "JackieChan",
+                    "RichardNorton",
+                    "MikiLee"
+                ],
+                "crew": [
+                    "SammoHung"
+                ],
+                "description": "a chines chef accident get involv with a news report who film a drug bust that went awri and is now be chase by gang who are tri to get the video tape. journalist martialart cook drugdeal jackiechan richardnorton mikile sammohung crime action comedi"
+            },
+            {
+                "title": "The Adventures of Pinocchio",
+                "year": "1996",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BYjRhMGYyMGEtMzhiZi00OTRkLTgzNmYtMzAxYmQ0NzY2ZTE1XkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "MartinLandau",
+                    "JonathanTaylorThomas",
+                    "Genevi\u00e8veBujold"
+                ],
+                "crew": [
+                    "SteveBarron"
+                ],
+                "description": "one of puppet-mak geppetto' creation come magic to life. thi puppet, pinocchio, ha one major desir and that is to becom a real boy someday. in order to accomplish thi goal he ha to learn to act responsibly. thi film show you the adventur on which he learn valuabl lessons. itali fathersonrelationship pinocchio love school crime havingfun poorpeopl boy martinlandau jonathantaylorthoma genevi\u00e8vebujold stevebarron anim famili fantasi"
+            }
+        ],
+        "friends": []
+    },
+    {
+        "username": "Shanker",
+        "password": "122",
+        "region": "Asia",
+        "liked_movies": [
+            {
+                "title": "First Strike",
+                "year": "1996",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BZmZhZjI1M2MtZTNmMi00ZDc2LTg2ZTgtODBjYjNmOGE0YTBhXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "JackieChan",
+                    "BillTung",
+                    "JacksonLiu"
+                ],
+                "crew": [
+                    "StanleyTong"
+                ],
+                "description": "jacki chan repris hi role as chan ka-kui (also known in some version as jackie) yet again as a hong kong cop who work with interpol to track down and arrest an illeg weapon dealer. later jacki realiz that thing are not as simpl as they appear and soon find himself a pawn of an organis pose as russian intelligence. helicopt martialart australia jackiechan billtung jacksonliu stanleytong action adventur comedi crime drama thriller"
+            },
+            {
+                "title": "The Quick and the Dead",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BZGRlZTJmNTEtMzE3Yi00YTAwLWIyMjgtODU4NTExNjFmOTQwXkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "SharonStone",
+                    "GeneHackman",
+                    "RussellCrowe"
+                ],
+                "crew": [
+                    "SamRaimi"
+                ],
+                "description": "a mysteri woman come to compet in a quick-draw elimin tournament, in a town taken over by a notori gunman. gunsling reveng prairi shootout pistol sharonston genehackman russellcrow samraimi action western"
+            },
+            {
+                "title": "Othello",
+                "year": "1995",
+                "rating": "N/A",
+                "image": "https://m.media-amazon.com/images/M/MV5BMzJkMzdmMjMtOGVmNC00NTI4LWJjNTMtNGE4ZGMzYjU1ZDk5XkEyXkFqcGc@._V1_SX300.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
+            }
+        ],
+        "friends": []
+    }
+]
