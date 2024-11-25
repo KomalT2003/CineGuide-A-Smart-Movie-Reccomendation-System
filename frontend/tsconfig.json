@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enables JSX syntax with React 17+ style
+    "target": "ES6", // Set a compatible target for JSX
+    "module": "ESNext", // Use ESNext modules
+    "moduleResolution": "Node", // Use Node module resolution
+    "strict": true, // Optional: Enables strict type-checking
+    "esModuleInterop": true, // Optional: Enables interop between CommonJS and ES modules
+    "skipLibCheck": true // Optional: Skips type-checking of declaration files
+  }
+}
