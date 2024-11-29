@@ -5,6 +5,7 @@ import GetRecommendations from './pages/GetReccomendations';
 import ShowRecommendations from './pages/ShowRecommendations';
 import MovieDescriptionPage from './pages/MovieDescription';
 import MoreLikeThisPage from './pages/MoreLikeThis';
+import FriendsPage from './components/Friends';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/show_recommendations' element={<ShowRecommendations />} />
         <Route path='/movie/:title' element={<MovieDescriptionPage />} />
         <Route path='/more_like_this/:movieName' element={<MoreLikeThisPage />} />
+        <Route path= '/friends' element={<FriendsPage />} />  
 
 
       </Routes>

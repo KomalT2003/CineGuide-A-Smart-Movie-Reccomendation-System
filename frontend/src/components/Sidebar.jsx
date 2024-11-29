@@ -24,7 +24,7 @@ const Sidebar = () => {
     );
 
   return (
-    <div className="bg-stone-800 text-white w-1/5 h-screen flex flex-col justify-between">
+    <div className="fixed top-0 left-0 bg-stone-800 text-white w-1/5 h-screen flex flex-col justify-between overflow-y-auto z-50">
       <div className="flex">
       <img src={logo} className="w-12 h-12 mt-8 ml-6 mr-2 "></img>
       <h1 className="text-3xl mt-8 text-center font-bold text-blue-500">CineGuide</h1>

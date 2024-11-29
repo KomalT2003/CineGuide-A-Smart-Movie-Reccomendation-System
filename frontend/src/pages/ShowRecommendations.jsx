@@ -175,7 +175,7 @@ const ShowRecommendations = () => {
   }
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen pl-[20%]">
       <Sidebar />
       <div className="flex-1 bg-black text-white p-6 overflow-y-auto">
         <h1 className="text-3xl font-bold mb-6">Here are our Top Picks for you!!</h1>

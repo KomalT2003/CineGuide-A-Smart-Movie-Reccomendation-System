@@ -10,8 +10,10 @@ CORS(app)
 
 user_pref={}
 
-api_endpoint_birch = "https://b8e7-35-227-164-47.ngrok-free.app/get_recommendations"
-api_endpoint_content = "https://b8e7-35-227-164-47.ngrok-free.app/get_more_recommendations"
+api_endpoint_birch = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_recommendations"
+api_endpoint_content = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_more_recommendations"
+api_endpoint_trending = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_trending_movies"
+api_endpoint_friends = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/match_friends"
 
 USERS_FILE = "users.json" # File where users are stored - username, password, region, liked movies
 RATINGS_FILE = "ratings.json" # File where ratings of movies are stored - movie name, rating
@@ -173,9 +175,52 @@ def reccomend_more():
         # Handle errors gracefully
         return jsonify({"message": "Failed to fetch recommendations", "status": new_reccomendations.status_code}), new_reccomendations.status_code
 
+
+@app.route('/get_trending_movies', methods=['GET'])
+def get_trending_movies():
+    response = requests.get(api_endpoint_trending)
+    print(response)
+    if response.status_code == 200:
+        trending_movies = response.json()
+        return trending_movies, 200
+    else:
+        return jsonify({"message": "Failed to fetch trending movies"}), 500
+    
+@app.route('/get_friends', methods=['POST'])
+def get_friends():
+    data = request.get_json()
+    # extract username from the request
+    username1 = data['username']
+    users = load_users()
+    friends = []
+    # get liked movies of username1
+    for user in users:
+        if user['username'] == username1:
+            liked_movies_objects = user['liked_movies']
+            break
+    liked_movies = [movie['title'] for movie in liked_movies_objects]
+        
+    # get all other users
+    for user in users:
+        if user['username'] != username1:
+            liked_movies2 = user['liked_movies']
+            liked_movies2 = [movie['title'] for movie in liked_movies2]
+            payload = {"liked_movies_user1": liked_movies, "liked_movies_user2": liked_movies2}
+            headers = {'Content-Type': 'application/json'}
+            response = requests.post(api_endpoint_friends, data=json.dumps(payload), headers=headers)
+            if response.status_code == 200:
+                score = response.json()
+                friends.append({"username": user['username'], "score": score})
+            else:
+                return jsonify({"message": "Failed to fetch friends"}), 500
+    return friends, 200
+
+
 @app.route('/', methods=['GET'])
 def home():
     return "Hello World!"
 
-if __name__ == '__main__':  
-   app.run()  
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

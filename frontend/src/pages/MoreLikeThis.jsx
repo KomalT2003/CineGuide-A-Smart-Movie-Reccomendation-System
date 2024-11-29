@@ -59,7 +59,7 @@ const MovieCard = memo(({ movie, id }) => {
   };
 
   return (
-    <div className="group bg-stone-800 px-4 py-4 rounded-lg shadow-lg overflow-hidden w-64 flex-shrink-0 
+    <div className=" group bg-stone-800 px-4 py-4 rounded-lg shadow-lg overflow-hidden w-64 flex-shrink-0 
       transition-all duration-300 ease-in-out 
       hover:scale-105 
       hover:shadow-[0_0_10px_rgba(255,255,255,0.2)]
@@ -141,7 +141,7 @@ const MoreLikeThisPage = () => {
   const visibleMovies = movies.slice(currentIndex, currentIndex + 4);
 
   return (
-    <div className="flex h-screen bg-black text-white">
+    <div className="pl-[20%] flex h-screen bg-black text-white">
       <Sidebar />
       <div className="flex-1 p-6 overflow-hidden">
         <h1 className="text-3xl font-bold mb-6">

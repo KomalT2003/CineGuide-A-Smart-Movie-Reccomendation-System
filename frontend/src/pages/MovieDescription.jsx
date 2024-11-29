@@ -52,7 +52,7 @@ const MovieDescriptionPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-black text-white">
+    <div className="pl-[20%] flex min-h-screen bg-black text-white">
       <Sidebar />
       <div className="flex-1 p-6">
         <button 

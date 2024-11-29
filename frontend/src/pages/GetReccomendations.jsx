@@ -89,7 +89,7 @@ const GetRecommendations = () => {
   ];
 
   return (
-    <div className="flex h-screen">
+    <div className="pl-[20%] flex h-screen">
       <Sidebar />
       <div className="flex-grow p-8 bg-black text-white overflow-y-auto">
         <div className="max-w-4xl mx-auto">

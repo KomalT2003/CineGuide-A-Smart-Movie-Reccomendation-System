@@ -37,7 +37,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="flex">
+    <div className=" pl-[20%] flex">
       <Sidebar />
       <div className="bg-stone-900 text-white flex-1 p-8 space-y-8">
         <div className="bg-stone-800 p-6 rounded-lg flex justify-between items-center">
@@ -55,10 +55,12 @@ const HomePage = () => {
           <Friends friends={friends} /> 
           <Graph/>
         </div> */}
+         <div className="grid bg-stone-800 rounded-lg gap-8 p-6">
+        <TrendingMovies movies={trendingMovies} />
+        </div>
         <div className="grid bg-stone-800 rounded-lg gap-8 p-6">
           <LikedMovies movies={likedMovies} />
         </div>
-        <TrendingMovies movies={trendingMovies} />
       </div>
     </div>
   );
