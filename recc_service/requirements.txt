@@ -1,0 +1,13 @@
+Flask
+Flask-cors
+numpy
+pandas
+scikit-learn
+scipy
+nltk
+credits.csv
+movies.csv
+ratings.csv
+movies_new.csv
+keywords.csv
+movies_metadata.csv
