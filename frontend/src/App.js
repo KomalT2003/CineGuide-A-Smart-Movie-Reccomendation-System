@@ -5,7 +5,8 @@ import GetRecommendations from './pages/GetReccomendations';
 import ShowRecommendations from './pages/ShowRecommendations';
 import MovieDescriptionPage from './pages/MovieDescription';
 import MoreLikeThisPage from './pages/MoreLikeThis';
-import FriendsPage from './components/Friends';
+import FriendsPage from './pages/FriendsPage';
+
 
 function App() {
   return (

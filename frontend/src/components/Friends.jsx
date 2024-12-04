@@ -20,7 +20,9 @@ const FriendsPage = () => {
 
       try {
         setIsLoading(true);
-        const response = await axios.get(`http://127.0.0.1:5000/get_friends/${user.username}`);
+        const username_user = user.username;
+        // post request with body username
+        const response = await axios.post('http://localhost:5000/friends', { username : username_user });
         setFriends(response.data);
         setIsLoading(false);
       } catch (error) {

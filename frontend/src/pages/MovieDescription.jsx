@@ -3,14 +3,55 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Sidebar from '../components/Sidebar';
 import { useUser } from '../context/UserContext';
+import { useState, useEffect } from 'react';
 
+
+const OMDB_API_KEY = '6144ca19';
+
+// Custom hook for fetching movie poster
+const useMoviePoster = (movieTitle) => {
+  const [poster, setPoster] = useState(null);
+
+  useEffect(() => {
+    const fetchPoster = async () => {
+      try {
+        const params = {
+          apikey: OMDB_API_KEY,
+          t: movieTitle,
+          plot: 'short'
+        };
+        
+        const queryString = new URLSearchParams(params).toString();
+        const response = await axios.get(
+          `https://www.omdbapi.com/?${queryString}`
+        );
+
+        if (response.data.Poster && response.data.Poster !== 'N/A') {
+          setPoster(response.data.Poster);
+        }
+      } catch (error) {
+        console.error(`Error fetching poster for ${movieTitle}:`, error);
+      }
+    };
+
+    if (movieTitle) {
+      fetchPoster();
+    }
+  }, [movieTitle]);
+
+  return poster;
+};
 
 const MovieDescriptionPage = () => {
+
   const location = useLocation();
   const navigate = useNavigate();
   const { user } = useUser();
   
+  
   const { movie } = location.state || {};
+
+  const poster = useMoviePoster(movie.title);
 
   if (!movie) {
     return (
@@ -65,7 +106,7 @@ const MovieDescriptionPage = () => {
         <div className="grid p-8 grid-cols-1 md:grid-cols-2 gap-8 bg-stone-900 rounded-lg overflow-hidden">
           <div className="w-full h-[600px]">
             <img
-              src={movie.image}
+              src={poster || "https://via.placeholder.com/300"}
               alt={movie.title}
               className="w-full h-full object-cover"
             />
