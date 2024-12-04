@@ -10,10 +10,10 @@ CORS(app)
 
 user_pref={}
 
-api_endpoint_birch = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_recommendations"
-api_endpoint_content = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_more_recommendations"
-api_endpoint_trending = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/get_trending_movies"
-api_endpoint_friends = "https://6e1d-2401-4900-1c20-470d-14ac-7c42-a792-f6e2.ngrok-free.app/match_friends"
+api_endpoint_birch = "https://0bf6-152-58-4-230.ngrok-free.app//get_recommendations"
+api_endpoint_content = "https://0bf6-152-58-4-230.ngrok-free.app//get_more_recommendations"
+api_endpoint_trending = "https://0bf6-152-58-4-230.ngrok-free.app//get_trending_movies"
+api_endpoint_friends = "https://0bf6-152-58-4-230.ngrok-free.app//match_friends"
 
 USERS_FILE = "users.json" # File where users are stored - username, password, region, liked movies
 RATINGS_FILE = "ratings.json" # File where ratings of movies are stored - movie name, rating
@@ -193,33 +193,69 @@ def get_friends():
     username1 = data['username']
     users = load_users()
     friends = []
+    friends_user = []
     # get liked movies of username1
     for user in users:
         if user['username'] == username1:
             liked_movies_objects = user['liked_movies']
             break
     liked_movies = [movie['title'] for movie in liked_movies_objects]
-        
+    
+    for user in users:
+        print(user['username'])
+    
+    friends_data = []
     # get all other users
     for user in users:
         if user['username'] != username1:
             liked_movies2 = user['liked_movies']
+            print("calculating similarity between ", username1, " and ", user['username'])
             liked_movies2 = [movie['title'] for movie in liked_movies2]
             payload = {"liked_movies_user1": liked_movies, "liked_movies_user2": liked_movies2}
             headers = {'Content-Type': 'application/json'}
             response = requests.post(api_endpoint_friends, data=json.dumps(payload), headers=headers)
             if response.status_code == 200:
-                score = response.json()
-                friends.append({"username": user['username'], "score": score})
-            else:
-                return jsonify({"message": "Failed to fetch friends"}), 500
-    return friends, 200
+                sim_data = response.json()
+                friends_user.append({"username": user['username'], "score": sim_data['similarity'],
+                                     "liked_movies": sim_data['liked_movies'], "common_movies": sim_data['common_movies'],
+                                     "common_ratings": sim_data['common_ratings']})
+                print(friends_user)
+                for friend in friends_user:
+                    print(friend)
+                    if friend['score'] > 50:
+                        if friend['username'] not in friends:
+                            friends.append(friend['username'])
+                            friends_data.append(friend)
+                            
+    friends = list(set(friends))
+    for user in users:
+        if user['username'] == username1:
+            for friend in friends:
+                if friend not in user['friends']:
+                    user['friends'].append(friend)
+            break
+    save_users(users)
+    if friends:
+        return jsonify({"message": "Friends fetched successfully", "friends": friends_data}), 200
+    else:
+        return jsonify({"message": "Failed to fetch friends"}), 500
 
+
+@app.route('/fetch_friends', methods=['POST'])
+def fetch_friends():
+    data = request.get_json()
+    username = data['username']
+    users = load_users()
+    friends = []
+    for user in users:
+        if user['username'] == username:
+            friends = user['friends']
+            break
+    return jsonify(friends), 200
 
 @app.route('/', methods=['GET'])
 def home():
     return "Hello World!"
-
 
 
 if __name__ == '__main__':

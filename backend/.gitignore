@@ -1,3 +1,5 @@
 penv/
 pyenv/
 env/
+newenv/
+__pycache__/

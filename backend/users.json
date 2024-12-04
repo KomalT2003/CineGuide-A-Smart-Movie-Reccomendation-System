@@ -201,10 +201,7 @@
                 "description": "the murder of her father send a teenag tomboy, matti ross (kim darby), on a mission of \"justice\", which involv aveng her father' death. she recruit a tough old marshal, \"rooster\" cogburn (john wayne), becaus he ha \"grit\", and a reput of get the job done. the two are join by a texa ranger, la boeuf (glen campbell), who is look for the same man (jeff corey) for a separ murder in texas. their odyssey take them from fort smith, arkansas, deep into the indian territori (present day oklahoma) to find their man. bountyhunt manhunt johnwayn kimdarbi jeremysl henryhathaway western"
             }
         ],
-        "friends": [
-            "Komms",
-            "Vanshika"
-        ]
+        "friends": []
     },
     {
         "userid": 2,
@@ -305,9 +302,30 @@
                     "SteveBarron"
                 ],
                 "description": "one of puppet-mak geppetto' creation come magic to life. thi puppet, pinocchio, ha one major desir and that is to becom a real boy someday. in order to accomplish thi goal he ha to learn to act responsibly. thi film show you the adventur on which he learn valuabl lessons. itali fathersonrelationship pinocchio love school crime havingfun poorpeopl boy martinlandau jonathantaylorthoma genevi\u00e8vebujold stevebarron anim famili fantasi"
+            },
+            {
+                "title": "The Interpreter",
+                "year": 2005,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "NicoleKidman",
+                    "SeanPenn",
+                    "CatherineKeener"
+                ],
+                "crew": [
+                    "SydneyPollack"
+                ],
+                "description": "after silvia broome, an interpret at unit nation headquarters, overhear plan of an assassination, an american secret servic agent is sent to investigate. newyork dictat africa destructionofacivil assassin resist reveng murder unitedn witnesstomurd fbiagent resistancefight nicolekidman seanpenn catherinekeen sydneypollack crime thriller"
             }
         ],
-        "friends": []
+        "friends": [
+            "Komal",
+            "Shanker",
+            "Vanshika24",
+            "Komal12",
+            "Komal122"
+        ]
     },
     {
         "username": "Shanker",
@@ -360,6 +378,247 @@
                 "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
             }
         ],
+        "friends": [
+            "Vipul",
+            "Komal"
+        ]
+    },
+    {
+        "username": "Vanshika24",
+        "password": "12345",
+        "region": "Asia",
+        "liked_movies": [
+            {
+                "title": "The Adventures of Pinocchio",
+                "year": 1996,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "MartinLandau",
+                    "JonathanTaylorThomas",
+                    "Genevi\u00e8veBujold"
+                ],
+                "crew": [
+                    "SteveBarron"
+                ],
+                "description": "one of puppet-mak geppetto' creation come magic to life. thi puppet, pinocchio, ha one major desir and that is to becom a real boy someday. in order to accomplish thi goal he ha to learn to act responsibly. thi film show you the adventur on which he learn valuabl lessons. itali fathersonrelationship pinocchio love school crime havingfun poorpeopl boy martinlandau jonathantaylorthoma genevi\u00e8vebujold stevebarron anim famili fantasi"
+            },
+            {
+                "title": "The Kid",
+                "year": 1921,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "CharlieChaplin",
+                    "JackieCoogan",
+                    "EdnaPurviance"
+                ],
+                "crew": [
+                    "CharlieChaplin"
+                ],
+                "description": "consid one of charli chaplin' best films, the kid also made a star of littl jacki coogan, who play a boy care for by the tramp when he' abandon by hi mother, edna. later, edna ha a chang of heart and ach to be reunit with her son. when she find him and wrest him from the tramp, it make for what turn out be one of the most heart-wrench scene ever includ in a comedy. angel suicideattempt fistfight slapstick classdiffer richpoor foundl dreamsequ semiautobiograph autotheft littletramp illegitimateson smashingawindow abandon charliechaplin jackiecoogan ednapurvi charliechaplin comedi drama"
+            },
+            {
+                "title": "The Swan Princess",
+                "year": 1994,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "MichelleNicastro",
+                    "JackPalance",
+                    "HowardMcGillin"
+                ],
+                "crew": [
+                    "RichardRich"
+                ],
+                "description": "the beauti princess odett is transform into a swan by an evil sorcerer' spell. held captiv at an enchant lake, she befriend jean-bob the frog, speed the turtl and puffin the bird. despit their struggl to keep the princess safe, these good-natur creatur can do noth about the sorcerer' spell, which can onli be broken by a vow of everlast love. princess swan michellenicastro jackpal howardmcgillin richardrich anim"
+            },
+            {
+                "title": "Othello",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
+            }
+        ],
         "friends": []
+    },
+    {
+        "username": "Komal12",
+        "password": "12345",
+        "region": "North America",
+        "liked_movies": [
+            {
+                "title": "Othello",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
+            },
+            {
+                "title": "Casino",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "RobertDeNiro",
+                    "SharonStone",
+                    "JoePesci"
+                ],
+                "crew": [
+                    "MartinScorsese"
+                ],
+                "description": "the life of the gambl paradis \u2013 la vega \u2013 and it dark mafia underbelly. poker drugabus 1970 overdos illegalprostitut robertdeniro sharonston joepesci martinscorses drama crime"
+            },
+            {
+                "title": "Dead Man Walking",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "SusanSarandon",
+                    "SeanPenn",
+                    "RobertProsky"
+                ],
+                "crew": [
+                    "TimRobbins"
+                ],
+                "description": "a justic drama base on a true stori about a man on death row who in hi last day form a strong relationship with a nun who teach him forgiv and give him spiritu as she accompani him to hi execution. susan sarandon won an oscar for best femal actress for her convinc portray of sister helen prejean. prison rape sociallydeprivedfamili penalti deathpenalti despair deathrow begnadigung therapist self-discoveri prisoncel courtcas deathsent doomedman sentenc lethalinject forgiv chariti mercypetit rageandh unsoci rightandjustic court electricchair cowardli susansarandon seanpenn robertproski timrobbin drama"
+            },
+            {
+                "title": "Forrest Gump",
+                "year": 1994,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "TomHanks",
+                    "RobinWright",
+                    "GarySinise"
+                ],
+                "crew": [
+                    "RobertZemeckis"
+                ],
+                "description": "a man with a low iq ha accomplish great thing in hi life and been present dure signific histor event - in each case, far exceed what anyon imagin he could do. yet, despit all the thing he ha attained, hi one true love elud him. 'forrest gump' is the stori of a man who rose abov hi challenges, and who prove that determination, courage, and love are more import than ability. vietnamveteran hippi mentallydis run basedonnovel vietnam vietnamwar friendship love familyrelationship bulli mothersonrelationship militari hug shrimp woundedsoldi flashback parkbench ampute tomhank robinwright garysinis robertzemecki comedi drama romanc"
+            },
+            {
+                "title": "Dangerous Minds",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "MichellePfeiffer",
+                    "GeorgeDzundza",
+                    "CourtneyB.Vance"
+                ],
+                "crew": [
+                    "JohnN.Smith"
+                ],
+                "description": "former marin louann johnson land a gig teach in a pilot program for bright but underachiev teen at a notori inner-c high school. after have a terribl first day, she decid she must throw decorum to the wind. when johnson return to the classroom, she doe so arm with a no-nonsens attitud inform by her militari train and a fearless determin to better the live of her student -- no matter what the cost. rapmus karat highschool navaloffic teacher amusementpark michellepfeiff georgedzundza courtneyb.v johnn.smith drama crime"
+            },
+            {
+                "title": "Dangerous Minds",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "MichellePfeiffer",
+                    "GeorgeDzundza",
+                    "CourtneyB.Vance"
+                ],
+                "crew": [
+                    "JohnN.Smith"
+                ],
+                "description": "former marin louann johnson land a gig teach in a pilot program for bright but underachiev teen at a notori inner-c high school. after have a terribl first day, she decid she must throw decorum to the wind. when johnson return to the classroom, she doe so arm with a no-nonsens attitud inform by her militari train and a fearless determin to better the live of her student -- no matter what the cost. rapmus karat highschool navaloffic teacher amusementpark michellepfeiff georgedzundza courtneyb.v johnn.smith drama crime"
+            }
+        ],
+        "friends": []
+    },
+    {
+        "username": "Komal122",
+        "password": "12345",
+        "region": "Asia",
+        "liked_movies": [
+            {
+                "title": "Casino",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "RobertDeNiro",
+                    "SharonStone",
+                    "JoePesci"
+                ],
+                "crew": [
+                    "MartinScorsese"
+                ],
+                "description": "the life of the gambl paradis \u2013 la vega \u2013 and it dark mafia underbelly. poker drugabus 1970 overdos illegalprostitut robertdeniro sharonston joepesci martinscorses drama crime"
+            },
+            {
+                "title": "Othello",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "LaurenceFishburne",
+                    "Ir\u00e8neJacob",
+                    "KennethBranagh"
+                ],
+                "crew": [
+                    "OliverParker"
+                ],
+                "description": "the evil iago pretend to be friend of othello in order to manipul him to serv hi own end in the film version of thi shakespear classic. shakespear jealousi friend moor laurencefishburn ir\u00e8nejacob kennethbranagh oliverpark drama"
+            },
+            {
+                "title": "Father of the Bride Part II",
+                "year": 1995,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "SteveMartin",
+                    "DianeKeaton",
+                    "MartinShort"
+                ],
+                "crew": [
+                    "CharlesShyer"
+                ],
+                "description": "just when georg bank ha recov from hi daughter' wedding, he receiv the news that she' pregnant ... and that george' wife, nina, is expect too. he wa plan on sell their home, but that' a plan that -- like georg -- will have to chang with the arriv of both a grandchild and a kid of hi own. babi midlifecrisi confid age daughter motherdaughterrelationship pregnanc contracept gynecologist stevemartin dianekeaton martinshort charlesshy comedi"
+            },
+            {
+                "title": "First Strike",
+                "year": 1996,
+                "rating": "N/A",
+                "image": "default.jpg",
+                "cast": [
+                    "JackieChan",
+                    "BillTung",
+                    "JacksonLiu"
+                ],
+                "crew": [
+                    "StanleyTong"
+                ],
+                "description": "jacki chan repris hi role as chan ka-kui (also known in some version as jackie) yet again as a hong kong cop who work with interpol to track down and arrest an illeg weapon dealer. later jacki realiz that thing are not as simpl as they appear and soon find himself a pawn of an organis pose as russian intelligence. helicopt martialart australia jackiechan billtung jacksonliu stanleytong action adventur comedi crime drama thriller"
+            }
+        ],
+        "friends": [
+            "Komal12",
+            "Komal",
+            "Shanker"
+        ]
     }
 ]
